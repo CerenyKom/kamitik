@@ -1,0 +1,150 @@
+body {
+    padding-top: 50px;
+}
+
+.em-text{
+    color: #1caa98 !important;
+}
+
+.jumbotron{
+    background: #1b222a url("../img/site_showcase_bg.jpg") no-repeat top center;
+    color: #fff;
+    height:592px;
+    overflow: none;
+}
+
+.jumbotron .app-btn{
+    width: 40%;
+    margin-right: 30px;
+}
+
+.jumbotron h1{
+    margin-top: 60px;
+}
+
+.jumbotron p{
+    margin-bottom: 40px;
+}
+
+img.demo{
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+    height: 100%;
+}
+
+section.big-logo{
+    width: 40%;
+    height: 40%;
+}
+
+section#feature{
+    background-color: #1caa98;
+    color: #fff;
+    padding: 40px;
+    overflow: auto;
+}
+
+section#feature ul li{
+    font-size: 25px;
+    list-style-type: none;
+}
+
+section#middle{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+section#about{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0 20px 0;
+}
+
+footer li{
+    float: left;
+    padding: 0 10px 0 10px;
+    list-style: none;
+}
+
+footer a{
+
+    color: #fff;
+}
+
+footer p{
+    float: right;
+}
+
+section#title{
+    padding: 0;
+    margin: 0;
+    height:80px;
+    background-color: #1caa98;
+    color: #fff
+}
+
+section#title h1{
+    margin-bottom: 20px;
+}
+
+/*MEDIA QUERY*/
+
+@media(max-width: 1200px) {
+
+
+}
+
+@media(max-width: 991px) {
+
+    .showcase-img{
+        display: none;
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 990px) {
+
+    .jumbotron {
+        height: 400px !important;
+        background-size: 100% 100%;
+    }
+
+    .jumbotron h1 {
+        margin-top: 10px;
+    }
+
+}
+
+@media(max-width: 768px){
+
+    .jumbotron{
+        height: 400px !important;
+        background-size:100% 100%;
+    }
+
+    .jumbotron h1{
+        margin-top: 10px;
+    }
+
+}
+
+@media(max-width: 500px){
+
+    .jumbotron{
+        height: 400px !important;
+        background-image: none;
+        text-align: center;
+    }
+
+    footer p{
+        float: none;
+        text-align: center;
+        psdding-top: 20px;
+    }
+}

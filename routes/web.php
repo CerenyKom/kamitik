@@ -12,5 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('acceuil');
+})->name('acceuil');
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+Route::get('/contact' , 'ContactController@index')->name('contact');
+Route::post('/contact' , 'ContactController@store')->name('contact');
+Route::get('/forum' , 'ForumController@index')->name('forum');
+Route::get('/galerie' , 'PhotoController@store')->name('galerie');
